@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(188, 188, 41, 0.993), rgba(27, 189, 125, 0.902));
+}
+
+.container{
+    width: 20%;
+    background-image: linear-gradient(rgba(249, 247, 247, 0.387), rgba(245, 250, 248, 0.358));
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.amount{
+    margin: 20px 5px;
+    font-size: 20px;
+}
+
+.amount input{
+    margin-top: 10px;
+    height: 25px;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.dropdown i{
+    margin: 10%;
+}
+
+.select-container{
+    display: flex;
+    align-items: center;
+}
+
+.select-container img{
+    width: 40%;
+    
+}
+
+.select-container select{
+    height: 25px;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.msg{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn{
+    background-color: rgba(9, 139, 215, 0.939);
+    color: rgb(9, 9, 9);
+    padding: 10px 25px;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    border: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgba(3, 4, 5, 0.939);
+    color: white;
+}
